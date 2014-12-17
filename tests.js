@@ -4,7 +4,7 @@
 
 describe("Primes kata", function () {
 
-    it("", function () {
-        expect(0).toBeTruthy();
+    it("should generate empty array for 1", function () {
+        expect(PrimeFactors.generate(1)).toEqual([]);
     });
 });
